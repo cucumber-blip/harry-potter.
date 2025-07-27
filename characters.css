@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+body {
+    font-family: "Kurale", serif;
+    background-color: rgb(53, 53, 53);
+}
+h1{
+    text-align: center;
+    color: rgb(250, 211, 55);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+}
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+.hug{
+    background-color: rgb(53, 53, 53);
+    border: 1px solid rgb(241, 198, 43);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.hug:hover{
+    background-color: rgb(241, 198, 43);
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+
+    }
+    img{
+        border: 2px solid black;
+    }
