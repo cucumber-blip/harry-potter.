@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+
+body {
+    font-family: "Kurale", serif;
+    background-color: rgb(53, 53, 53);
+}
+
+h1{
+    text-align: center;
+   color: rgb(250, 211, 55);
+  
+}
+
+.boom{
+    text-decoration: none;
+    background-color: rgb(241, 198, 43);
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+   
+}
+a:hover{
+    background-color: rgb(243, 206, 107);
+    font-size: 18px;
+}
+div{
+    text-align: center;
+    margin: 5px;
+}
+
+.show_all{
+    margin-bottom: 30px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+}
+
+img{
+    border-radius: 10px;
+}
+.hogwarts{
+    background-color: rgb(53, 53, 53);
+    border: 1px solid rgb(241, 198, 43);
+    color: white;
+     text-decoration: none;
+      border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.hogwarts:hover{
+    background-color: 1px solid rgb(241, 198, 43);
+    color: black;
+}
+.hog{
+    background-color: rgb(53, 53, 53);
+    border: 1px solid rgb(241, 198, 43);
+    color: white;
+     text-decoration: none;
+      border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.hog:hover{
+     background-color: 1px solid rgb(241, 198, 43);
+    color: black;
+}
+.egg{
+ background-color: rgb(53, 53, 53);
+    border: 1px solid rgb(241, 198, 43);
+    color: white;
+     text-decoration: none;
+      border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.egg:hover{
+     background-color: 1px solid rgb(241, 198, 43);
+    color: black;
+}
